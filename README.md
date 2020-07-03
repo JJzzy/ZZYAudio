@@ -11,10 +11,14 @@
 - (void)startRecordAndPlay;
 
 2、获取音频数据并传进语音框架进行播放
+
 /**
 播放音频数据
+
 pcmData        音频数据（PCM、AAC等音频格式均支持）
+
 length         数据长度
+
 waveFrameType  采样率
 */
 - (void)play:(void*)pcmData length:(unsigned int)length waveFrameType:(int)waveFrameType;
