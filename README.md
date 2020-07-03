@@ -2,7 +2,9 @@
 这是一款基于AudioUnit的支持语音对讲的框架
 
 
+
 如何使用：
+
 
 1、开始语音对讲
 
@@ -11,6 +13,7 @@
  */
  
 - (void)startRecordAndPlay;
+
 
 
 2、获取音频数据并传进语音框架进行播放
@@ -28,6 +31,7 @@ waveFrameType  采样率
 - (void)play:(void*)pcmData length:(unsigned int)length waveFrameType:(int)waveFrameType;
 
 
+
 3、结束语音对讲
 
 /**
@@ -35,6 +39,7 @@ waveFrameType  采样率
  */
  
 - (void)stopRecordAndPlay;
+
 
 
 4、如何将采集到的移动端的数据发送出去
